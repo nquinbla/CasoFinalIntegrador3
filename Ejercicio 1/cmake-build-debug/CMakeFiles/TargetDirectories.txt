@@ -1,0 +1,4 @@
+C:/Users/nerea/OneDrive/Documentos/GitHub/CasoFinalIntegrador3/Ejercicio 1/cmake-build-debug/CMakeFiles/main.dir
+C:/Users/nerea/OneDrive/Documentos/GitHub/CasoFinalIntegrador3/Ejercicio 1/cmake-build-debug/CMakeFiles/prueba1.dir
+C:/Users/nerea/OneDrive/Documentos/GitHub/CasoFinalIntegrador3/Ejercicio 1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/nerea/OneDrive/Documentos/GitHub/CasoFinalIntegrador3/Ejercicio 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
