@@ -3,6 +3,5 @@ project(Ejercicio_1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(main main.cpp)
-add_executable(prueba1 prueba1.cpp)
-add_executable(prueba2 prueba2.cpp)
+add_executable(integrador main.cpp json11.cpp json11.hpp)
+

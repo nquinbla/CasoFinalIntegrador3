@@ -41,70 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/nerea/OneDrive/Documentos/GitHub/CasoFinalIntegrador3/Ejercicio$ 1/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target main
+# Object build statements for EXECUTABLE target integrador
 
 
 #############################################
-# Order-only phony target for main
+# Order-only phony target for integrador
 
-build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
+build cmake_object_order_depends_target_integrador: phony || CMakeFiles/integrador.dir
 
-build CMakeFiles/main.dir/main.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/nerea/OneDrive/Documentos/GitHub/CasoFinalIntegrador3/Ejercicio$ 1/main.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\main.cpp.obj.d
+build CMakeFiles/integrador.dir/main.cpp.obj: CXX_COMPILER__integrador_unscanned_Debug C$:/Users/nerea/OneDrive/Documentos/GitHub/CasoFinalIntegrador3/Ejercicio$ 1/main.cpp || cmake_object_order_depends_target_integrador
+  DEP_FILE = CMakeFiles\integrador.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir
+  OBJECT_DIR = CMakeFiles\integrador.dir
+  OBJECT_FILE_DIR = CMakeFiles\integrador.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target main
+# Link build statements for EXECUTABLE target integrador
 
 
 #############################################
-# Link the executable main.exe
+# Link the executable integrador.exe
 
-build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.obj
+build integrador.exe: CXX_EXECUTABLE_LINKER__integrador_Debug CMakeFiles/integrador.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_DIR = CMakeFiles\integrador.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = main.exe
-  TARGET_IMPLIB = libmain.dll.a
-  TARGET_PDB = main.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target prueba1
-
-
-#############################################
-# Order-only phony target for prueba1
-
-build cmake_object_order_depends_target_prueba1: phony || CMakeFiles/prueba1.dir
-
-build CMakeFiles/prueba1.dir/prueba1.cpp.obj: CXX_COMPILER__prueba1_unscanned_Debug C$:/Users/nerea/OneDrive/Documentos/GitHub/CasoFinalIntegrador3/Ejercicio$ 1/prueba1.cpp || cmake_object_order_depends_target_prueba1
-  DEP_FILE = CMakeFiles\prueba1.dir\prueba1.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\prueba1.dir
-  OBJECT_FILE_DIR = CMakeFiles\prueba1.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target prueba1
-
-
-#############################################
-# Link the executable prueba1.exe
-
-build prueba1.exe: CXX_EXECUTABLE_LINKER__prueba1_Debug CMakeFiles/prueba1.dir/prueba1.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\prueba1.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = prueba1.exe
-  TARGET_IMPLIB = libprueba1.dll.a
-  TARGET_PDB = prueba1.exe.dbg
+  TARGET_FILE = integrador.exe
+  TARGET_IMPLIB = libintegrador.dll.a
+  TARGET_PDB = integrador.exe.dbg
 
 
 #############################################
@@ -132,9 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build main: phony main.exe
-
-build prueba1: phony prueba1.exe
+build integrador: phony integrador.exe
 
 # =============================================================================
 # Folder targets.
@@ -144,7 +109,7 @@ build prueba1: phony prueba1.exe
 #############################################
 # Folder: C:/Users/nerea/OneDrive/Documentos/GitHub/CasoFinalIntegrador3/Ejercicio 1/cmake-build-debug
 
-build all: phony main.exe prueba1.exe
+build all: phony integrador.exe
 
 # =============================================================================
 # Built-in targets

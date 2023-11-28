@@ -15,8 +15,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -31,8 +30,7 @@
 					"name" : "Ejercicio_1",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -40,16 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-bfb1b66f83ffc353b2b0.json",
-					"name" : "main",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "prueba1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-prueba1-Debug-b06102b07072678efc2b.json",
-					"name" : "prueba1",
+					"id" : "integrador::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-integrador-Debug-e72f5baf29ae96e0ac82.json",
+					"name" : "integrador",
 					"projectIndex" : 0
 				}
 			]

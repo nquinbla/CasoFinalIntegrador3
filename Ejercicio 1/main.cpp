@@ -8,9 +8,11 @@
 #include <string>
 #include <vector>
 #include <map>
-#include <initializer_list>
-#include <sstream>
+#include <json11.cpp>
+#include <jsonlib.hpp>
 
+
+struct Entorno;
 
 using namespace std;
 
