@@ -14,4 +14,4 @@ Requisitos del proyecto:
 5. Implementar un método parse_json() que tome una cadena en formato JSON y la convierta a una instancia de la clase Variant.
 
 
-No se que hacer profe, no encuentro jlib ni jnada, dame >:(
+No se que hacer profe, no encuentro jlib ni jnada.
